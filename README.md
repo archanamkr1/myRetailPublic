@@ -43,6 +43,11 @@ http://localhost:8080/products/3554654
 Can use any REST Clients like curl or postman to test the application
 This application can be deployed on a container based solution ( like docker / k8s) to make it production compliant.
 
+Other Artifacts
+
+Screenshots_Postman_JUNIT.doc - Screenshots from Postman and JUNIT 
+myRetail_ReadMe.doc -- Readme file for the application
+
 Further enhancements in scope
 
 1. Improved Error handling
