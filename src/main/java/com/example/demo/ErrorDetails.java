@@ -1,0 +1,34 @@
+package com.example.demo;
+
+import java.util.Date;
+
+public class ErrorDetails {
+private Date time;
+private String message;
+private String details;
+public Date getTimestamp() {
+	return time;
+}
+public void setTimestamp(Date timestamp) {
+	this.time = timestamp;
+}
+public String getMessage() {
+	return message;
+}
+public void setMessage(String message) {
+	this.message = message;
+}
+public String getDetails() {
+	return details;
+}
+public void setDetails(String details) {
+	this.details = details;
+}
+public ErrorDetails(Date timestamp, String message, String details) {
+	super();
+	this.time = timestamp;
+	this.message = message;
+	this.details = details;
+}
+
+}
